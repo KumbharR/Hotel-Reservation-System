@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+
+header,
+footer {
+    background-color: rosybrown;
+}
+
+.RadissonHotel {
+    height: 500px;
+    width: 500px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.form {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+
+.description {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}

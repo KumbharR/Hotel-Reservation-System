@@ -6,16 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details</title>
-    <style>
-        body{
-            height: 100%;
-            width: 100%;
-        }
-        .RadissonHotel{
-            height: 500px;
-            width: 500px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/detail.css">
 </head>
 
 <body>
@@ -29,43 +20,48 @@
 
 
         <div>
-            <img class="RadissonHotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+            <img class="RadissonHotel"
+                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                 alt="Radisson Blu Hotel"><br>
 
+            <div class="form">
+                <form method="get" action="/payment.html">
+                    <label for="adults">Adults:</label>
+                    <input type="number" name="adults" id="" min="1" required><br>
 
-            <form method="get" action="/payment.html">
-                <label for="adults">Adults:</label>
-                <input type="number" name="adults" id="" min="1" required><br>
+                    <label for="Name">Name:</label>
+                    <input type="text" name="Name" id="" required><br>
 
-                <label for="Name">Name:</label>
-                <input type="text" name="Name" id="" required><br>
+                    <label for="Date">From Date:</label>
+                    <input type="date" name="Date" id="" required><br>
 
-                <label for="Date">From Date:</label>
-                <input type="date" name="Date" id="" required><br>
+                    <label for="Tdate">To Date:</label>
+                    <input type="date" name="Tdate" id="" required><br>
 
-                <label for="Tdate">To Date:</label>
-                <input type="date" name="Tdate" id="" required><br>
+                    <label for="Total ">Total:</label>
+                    <input name="Total" readonly><br>
 
-                <label for="Total ">Total:</label>
-                <input name="Total" readonly><br>
-
-                <button>Book Now</button>
-            </form>
-            <h2>Radisson Blu Hotel</h2>
-            <p>RATING</p>
-            <p>5 Star</p>
-            <p>AMENITIES</p>
-            <ul>
-                <li>Room service</li>
-                <li>Restaurant</li>
-                <li>Bissnuss center</li>
-                <li>Fitness center</li>
-                <li>Pool</li>
-            </ul>
-            <h5>DESCRIPTION</h5>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure hic totam inventore veniam delectus
-                explicabo vitae quaerat reiciendis voluptatem! Dignissimos sint dolorum dolores magni error molestiae?
-                Ipsam voluptatem impedit, deleniti alias architecto veniam temporibus possimus!</P>
+                    <button>Book Now</button>
+                </form>
+            </div>
+            <div class="description">
+                <h2>Radisson Blu Hotel</h2>
+                <p>RATING</p>
+                <p>5 Star</p>
+                <p>AMENITIES</p>
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Bissnuss center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5>DESCRIPTION</h5>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure hic totam inventore veniam delectus
+                    explicabo vitae quaerat reiciendis voluptatem! Dignissimos sint dolorum dolores magni error
+                    molestiae?
+                    Ipsam voluptatem impedit, deleniti alias architecto veniam temporibus possimus!</P>
+            </div>
         </div>
 
         <footer>
