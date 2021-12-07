@@ -6,23 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .RadissonHotel{
+            height: 500px;
+            width: 500px;
+        }
+    </style>
 </head>
 
 <body>
     <div>
-        <div>
-            <a href="/index.html"><img src="assests/images/logo.png" alt="Logo" height="60px"
-                width="60px"></a>
-            <a href="/login.html" >Login</a>
-        </div>
+        <header>
+            <div>
+                <a href="/index.html"><img src="assests/images/logo.png" alt="Logo" height="60px" width="60px"></a>
+                <a href="/login.html">Login</a>
+            </div>
+        </header>
 
 
         <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+            <img class="RadissonHotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                 alt="Radisson Blu Hotel"><br>
 
-                
-            <form  method="get" action="/payment.html">
+
+            <form method="get" action="/payment.html">
                 <label for="adults">Adults:</label>
                 <input type="number" name="adults" id="" min="1" required><br>
 
@@ -36,9 +47,9 @@
                 <input type="date" name="Tdate" id="" required><br>
 
                 <label for="Total ">Total:</label>
-                <input  name="Total" readonly><br>
+                <input name="Total" readonly><br>
 
-               <button>Book Now</button>
+                <button>Book Now</button>
             </form>
             <h2>Radisson Blu Hotel</h2>
             <p>RATING</p>
@@ -52,21 +63,24 @@
                 <li>Pool</li>
             </ul>
             <h5>DESCRIPTION</h5>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure hic totam inventore veniam delectus explicabo vitae quaerat reiciendis voluptatem! Dignissimos sint dolorum dolores magni error molestiae? Ipsam voluptatem impedit, deleniti alias architecto veniam temporibus possimus!</P>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure hic totam inventore veniam delectus
+                explicabo vitae quaerat reiciendis voluptatem! Dignissimos sint dolorum dolores magni error molestiae?
+                Ipsam voluptatem impedit, deleniti alias architecto veniam temporibus possimus!</P>
         </div>
 
-
-        <div>
-            <div> <a href="/contact.html" >Contact Us</a>
+        <footer>
+            <div>
+                <div> <a href="/contact.html">Contact Us</a>
+                </div>
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt=""
+                        height="20px" width="22px"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt=""
+                        height="20px" width="22px"></a>
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="" height="20px"
+                        width="22px"></a>
+                <p>&copy; 2020 ROOM SEARCH PVT.LTD</p>
             </div>
-            <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt=""
-                    height="20px" width="22px"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt=""
-                    height="20px" width="22px"></a>
-            <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="" height="20px"
-                    width="22px"></a>
-            <p>&copy; 2020 ROOM SEARCH PVT.LTD</p>
-        </div>
+        </footer>
     </div>
 
 </body>
