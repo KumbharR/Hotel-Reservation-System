@@ -1,72 +1,77 @@
 html, body, .containerM{
-    width: 100% !important;
-    height: 100%;
-    font-family: 'Ubuntu',sans-serif;
-   }
-   a{
-    text-decoration: none !important;
-    color: black !important;
-   }
-   body{
-    margin: 0 !important;
-    padding: 0 !important;
-    background-color: #e0e0e0 !important;
-   }
-   .containerM{
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex;
-    flex-direction: column;
-   }header, footer{
-     background-color: rosybrown;
-   }
-   header{
-     display: flex;
-     justify-content: space-between;
-     position: sticky;
-     top: 0;
-   }
-   /*Login button*/
-   header button{
-     justify-content: flex-end;
-     align-self: center;
-     margin-right: 2%;
-   }
-   /*Logo*/
-   header img{
-     height: 60px;
-     width: 60px;
-     justify-content: flex-start;
-     margin-left: 1%;
-   }
-   .social-links{
-     width: 80px;
-   }
-   .social-links img{
-     width: 22px;
-     height: 20px;
-   }
-   /*Footer whole*/
-   footer{
-     position: sticky;
-     bottom: 0;
-     display: flex;
-     justify-content: space-between;
-     flex-direction: row;
-     padding: 1%;
-   }
-   footer a{
-     align-self: center;
-     order: 1;
-     margin-left: 2%;
-   }
-   footer .social-links{
-     align-self: center;
-     order: 3;
-     margin-right: 2%;
-   }
-   footer span{
-     order: 2;
-     font-size: 10px;
-     align-self: center;
-   }
+  width: 100% !important;
+  height: 100%;
+  font-family: 'Ubuntu',sans-serif;
+ }
+ a{
+  text-decoration: none !important;
+  color: black !important;
+ }
+ body{
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #e0e0e0 !important;
+ }
+ .containerM{
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+ }header, footer{
+   background-color: rosybrown;
+   z-index: 3;
+ }
+ header{
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+ }
+ /*Login button*/
+ header button{
+   justify-content: flex-end;
+   align-self: center;
+   margin-right: 2%;
+ }
+ /*Logo*/
+ header img{
+   height: 60px;
+   width: 60px;
+   justify-content: flex-start;
+   margin-left: 1%;
+ }
+ .social-links{
+   width: 80px;
+ }
+ .social-links img{
+   width: 22px;
+   height: 20px;
+ }
+ /*Footer whole*/
+ footer{
+   position: sticky;
+   bottom: 0;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   padding: 1%;
+ }
+ footer a{
+   align-self: center;
+   order: 1;
+   margin-left: 2%;
+ }
+ footer .social-links{
+   align-self: center;
+   order: 3;
+   margin-right: 2%;
+ }
+ footer span{
+   order: 2;
+   font-size: 10px;
+   align-self: center;
+ }
+ /* Ratings star*/
+ .checked {
+     color: orange;
+ }

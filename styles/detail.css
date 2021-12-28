@@ -1,38 +1,47 @@
-#content
-{
+#content{
     margin-left: 4%;
     margin-right: 4%;
 }
-#Description
-{
+#Description{
     margin-top: 1%;
     margin-bottom: 3%;
 }
-form
-{
+form{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     justify-content: space-between;
     border: 1;
 }
-#Radison
-{
+#slideshow-container{
+  width: 50%;
+}
+.carousel-inner{
+  text-align: center;
+}
+.slider-image{
     max-height: 350px;
     width: 500px;
     margin: 2% 0;
-}input[type=text] input[type=date]
-{
+    align-self: center;
+    z-index: 0;
+}
+.carousel-control-prev, .carousel-control-next{
+  color: rosybrown !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  color: rosybrown !important;
+}
+input[type=text] input[type=date]{
     width:60%;
     margin-right: 5%;
 }
-h4
-{
+h4{
     font-size: 16px !important;
     font-family: cursive;
 }
-#hotel-Registration
-{
+#hotel-Registration{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -51,8 +60,7 @@ h4
   align-self: center;
   text-align: center;
 }
-.form-element:first-child
-{
+.form-element:first-child{
     margin-top: 30px;
 }
 #Form-register{
@@ -61,13 +69,11 @@ h4
     justify-content: space-between;
     border-left: 1px solid black;
 }
-#button1
-{
+#button1{
   margin: 0 50% ;
     padding: 2% ;
 }
-label
-{
+label{
     display: inline-block;
     width: 150px;
     margin-left: 20px;
