@@ -1,39 +1,15 @@
-body{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    background-color: #e0e0e0;
-    font-family:'Ubuntu', sans-serif;
+#content
+{
+    margin-left: 4%;
+    margin-right: 4%;
 }
-header,footer{
-    background-color: rosybrown;
-   
+#Description
+{
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
-header{
-    position:sticky;
-    top: 0;
-    
-}
-.logo{
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.login{
-    display: flex;
-    float: right;
-    margin-top: 20px;
-    margin-bottom: auto;
-    margin-right: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: bolder;
-}
-
-
 form
 {
-    margin-bottom: 1%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -52,6 +28,7 @@ form
 }
 h4
 {
+    font-size: 16px !important;
     font-family: cursive;
 }
 #hotel-Registration
@@ -65,8 +42,14 @@ h4
     max-height: 400px;
 }
 .form-element{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     vertical-align: middle;
+}
+.form-element button{
+  margin-left: 50%;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
 }
 .form-element:first-child
 {
@@ -89,50 +72,18 @@ label
     width: 150px;
     margin-left: 20px;
 }
-
-/*------------------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------------------*/
-
-
-.description {
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 1%;
-    margin-bottom: 2%;
+.modals{
+  display: flex;
+  justify-content: space-around;
 }
-.description h5{
-    font-family: cursive;
+.modal-body{
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+display: flex;
 }
-
-.social-media{
-    height:20px;
-     width:22px;
+.modal-body button{
+  margin-top: 10%;
+  margin-left: 40%;
 }
-footer{
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 12px;
-}
-footer a{
-    align-self: center;
-    order: 1;
-    color: black;
-    text-decoration: none;
-  }
-
-footer .smlink{
-    align-self: center;
-    order: 3;
-  }
-  footer span{
-    order: 2;
-    font-size: 10px;
-    align-self: flex-end;
-    position: relative;
-    top: 8px;
-    bottom: 1px;
-  }

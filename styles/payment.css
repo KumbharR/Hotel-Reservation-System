@@ -1,121 +1,58 @@
-body{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    background-color: #e0e0e0;
-    font-family:'Ubuntu', sans-serif;
-}
-header,footer{
-    background-color: rosybrown;
-   
-}
-header{
-    position:sticky;
-    top: 0;
-    
-}
-.logo{
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.login{
-    display: flex;
-    float: right;
-    margin-top: 20px;
-    margin-bottom: auto;
-    margin-right: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: bolder;
-}
-.full{
-    display: flexbox;
-     
-}
-.container1 {
-    background-color: rgb(132, 136, 139);
-    height: 20%;
+.hotel-details {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    
-}
-.container1 div{
-    display: block;
-    float: right;
-    margin: 5% 10% auto 0;
-    
-}
-
-.RadissonHotel {
-    max-height: 300px;
-    max-width: 270px;
-}
-
-.container2{
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 2%;
+    height: 30%;
+    display: flex;
+    background-color: rgb(132, 136, 139);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 4%;
     margin-bottom: 4%;
-    background-color:rosybrown; 
+  }
+  .hotel-details img{
+    width: 270px;
+    height: 170px;
+    justify-content: center;
+    align-self: center;
+  }
+  .details{
+    display: inline-block;
+    align-self: center;
+    margin-right: 40px;
+    clear: both;
+  }
+  .payment-details{
+    clear: both;
+    margin: 2%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rosybrown;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-.customerInfo{
-    padding: 2px;
-}
-.customerInfo strong{
+  }
+  /*Tariff box*/
+  .tariff-details{
+    margin-top: 3%;
+  }
+  #paynow{
+    margin-top: 5%;
+  }
+  b{
     font-family: cursive;
-}
-.tariffInfo{
-    margin: 2%;
-    padding: 2px;
-    vertical-align: center ;
-}
-.tariffInfo strong{
-    font-family: cursive;
-}
-
-.pay{
-    vertical-align: middle;
-    margin: 4%;
-}
-.pay a{
-    color: black;
-    text-decoration: none;
-}
-
-.social-media{
-    height:20px;
-     width:22px;
-}
-footer{
-    position: sticky;
-    bottom: 0;
+  }
+  .modals{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 12px;
-}
-footer a{
-    align-self: center;
-    order: 1;
-    color: black;
-    text-decoration: none;
+    justify-content: space-around;
   }
-
-footer .smlink{
+  .modal-body{
+    justify-content: center;
+    align-content: center;
     align-self: center;
-    order: 3;
+    align-items: center;
   }
-  footer span{
-    order: 2;
-    font-size: 10px;
-    align-self: flex-end;
-    position: relative;
-    top: 8px;
-    bottom: 1px;
+  .modal-body button{
+    margin-top: 10%;
+    margin-left: 40%;
   }
